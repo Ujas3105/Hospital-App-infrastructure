@@ -1,10 +1,10 @@
 terraform { 
   cloud { 
     
-    organization = "Cloudscape" 
+    organization = "Remote-gigs" 
 
     workspaces { 
-      name = "aks-deploy" 
+      name = "Azure-Kubernetes-Infrastructure" 
     } 
   } 
 }
